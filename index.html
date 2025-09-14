@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ant Campbell • Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="home">
+<header class="topbar">
+<div class="container topbar__inner">
+<a class="logo" href="index.html"><span class="gold-bar"></span>ANT CAMPBELL<span class="logo-sub"> | Portfolio</span></a>
+<nav class="nav">
+<a href="index.html" class="nav__link">Home</a>
+<a href="education.html" class="nav__link">Education</a>
+<a href="projects.html" class="nav__link">Projects</a>
+<a href="work.html" class="nav__link">Work Experience</a>
+<a href="extracurriculars.html" class="nav__link">Extracurriculars</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<section class="hero">
+<div class="hero__copy">
+<h1>Building <span class="gold">useful</span> software.</h1>
+<p>Graduate technologist and athlete aiming for elite execution—in code and competition. Focused on Python, JS, data, and reliable platforms.</p>
+<div class="btn-row">
+<a href="projects.html" class="btn btn--ghost">View Projects</a>
+<a href="mailto:ant@example.com" class="btn btn--gold">Contact</a>
+</div>
+</div>
+<div class="hero__media">
+<div class="photo-frame" id="photoPreview"></div>
+<div class="uploader">
+<label class="file">
+<input type="file" accept="image/*" id="fileInput" /> Upload photo
+</label>
+<div class="urlset">
+<input type="url" id="urlInput" placeholder="Paste image URL…" />
+<button id="setUrlBtn" class="btn btn--ghost small">Set</button>
+<button id="clearBtn" class="btn btn--ghost small">Clear</button>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="section">
+<div class="section__head">
+<h2><span class="gold">About</span><span class="slash">/</span></h2>
+<p class="muted">Quick intro and what I bring to a software team.</p>
+</div>
+<div class="grid grid-3">
+<article class="card"><h3>What I Do</h3><p>Full‑stack flavored problem solver: Python, JS, data workflows, and clean deployments. I care about reliability, performance, and clear UX.</p></article>
+<article class="card"><h3>My Edge</h3><p>Athlete mindset. I iterate, measure, and improve. I ship polished features and write docs others can follow.</p></article>
+<article class="card"><h3>Now</h3><p>Seeking software development roles. Building data‑driven sports tools and robust support automations.</p></article>
+</div>
+</section>
+</main>
+
+
+<footer class="footer">
+<div class="container footer__inner">
+<span>© <span id="year"></span> Ant Campbell</span>
+<span class="palette"><i></i> Black • Gold • White</span>
+<span class="links"><a href="https://github.com/" target="_blank">GitHub</a> • <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></span>
+</div>
+</footer>
+
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
